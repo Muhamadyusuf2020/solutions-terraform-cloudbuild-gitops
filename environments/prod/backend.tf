@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = " dap-demo-cases"
+    bucket = "dap-demo-cases"
     prefix = "env/prod"
   }
 }
